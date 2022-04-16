@@ -84,7 +84,7 @@ img{
     overflow: hidden;
 }
 
-@media(max-width:375px){
+@media(max-width:500px){
     #sedans{
        border-top-left-radius: 10px;
        border-bottom-left-radius: 0px;
