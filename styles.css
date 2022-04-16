@@ -1,0 +1,102 @@
+body{
+    background-color:  hsl(0, 0%, 95%);
+}
+img{
+  width:70px;
+}
+#names{
+    font-family: 'Big Shoulders Display', cursive;
+    color:hsl(0, 0%, 95%);
+}
+#text{
+    font-family: 'Lexend Deca', sans-serif;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size:16px;
+}
+#click{
+    background-color:hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    color:hsl(31, 77%, 52%);
+    width:130px;
+    height: 40px;
+    padding-left:10px;
+    padding-right:10px;
+    font-size: 13px;
+    border: none;
+}
+#clicks{
+    background-color:hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    color:hsl(184, 100%, 22%);
+    width:130px;
+    height: 40px;
+    padding-left:10px;
+    padding-right:10px;
+    font-size: 13px;
+    border: none;
+}
+#clickss{
+    background-color:hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    color:hsl(179, 100%, 13%);
+    width:130px;
+    height: 40px;
+    padding-left:10px;
+    padding-right:10px;
+    font-size: 13px;
+    border: none;
+}
+#content{
+    margin-top: 100px;
+}
+#sedans{
+    background-color:hsl(31, 77%, 52%);
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+}
+#suv{
+    background-color: hsl(184, 100%, 22%);
+}
+#luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#click:hover{
+    background-color:hsl(31, 77%, 52%) ;
+    color:hsl(0, 0%, 95%);
+    border:solid;
+    border-color: hsl(0, 0%, 95%);
+}
+#clicks:hover{
+    background-color:hsl(184, 100%, 22%) ;
+    color:hsl(0, 0%, 95%);
+    border:solid;
+    border-color: hsl(0, 0%, 95%);
+}
+#clickss:hover{
+    background-color:hsl(179, 100%, 13%);
+    color:hsl(0, 0%, 95%);
+    border:solid;
+    border-color: hsl(0, 0%, 95%);
+}
+#con{
+    overflow: hidden;
+}
+
+@media(max-width:375px){
+    #sedans{
+       border-top-left-radius: 10px;
+       border-bottom-left-radius: 0px;
+       border-top-right-radius:10px;
+    }
+    #luxury{
+        background-color: hsl(179, 100%, 13%);
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius:10px;
+    }
+    #content{
+        margin-left: 30px;
+    }
+}
